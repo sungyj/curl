@@ -1,0 +1,1752 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="voutf(...) at src/tool_msgs.c:39">
+			<value>1</value>
+			<value>39</value>
+			<value>8</value>
+		</item>
+		<item name="notef(...) at src/tool_msgs.c:90">
+			<value>2</value>
+			<value>8</value>
+			<value>2</value>
+		</item>
+		<item name="warnf(...) at src/tool_msgs.c:104">
+			<value>3</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="helpf(...) at src/tool_msgs.c:115">
+			<value>4</value>
+			<value>15</value>
+			<value>3</value>
+		</item>
+		<item name="errorf(...) at src/tool_msgs.c:137">
+			<value>5</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="15.6"/>
+		<average label="CCN" value="3.4"/>
+		<average label="NCSS" value="15.6"/>
+		<average label="CCN" value="3.4"/>
+		<average label="NCSS" value="15.6"/>
+		<average label="CCN" value="3.4"/>
+		<item name="writeTime(...) at src/tool_writeout.c:153">
+			<value>6</value>
+			<value>30</value>
+			<value>6</value>
+		</item>
+		<item name="urlpart(...) at src/tool_writeout.c:190">
+			<value>7</value>
+			<value>75</value>
+			<value>31</value>
+		</item>
+		<item name="writeString(...) at src/tool_writeout.c:271">
+			<value>8</value>
+			<value>142</value>
+			<value>54</value>
+		</item>
+		<item name="writeLong(...) at src/tool_writeout.c:421">
+			<value>9</value>
+			<value>52</value>
+			<value>14</value>
+		</item>
+		<item name="writeOffset(...) at src/tool_writeout.c:478">
+			<value>10</value>
+			<value>27</value>
+			<value>6</value>
+		</item>
+		<item name="ourWriteOut(...) at src/tool_writeout.c:511">
+			<value>11</value>
+			<value>155</value>
+			<value>42</value>
+		</item>
+		<average label="NCSS" value="50.81818181818182"/>
+		<average label="CCN" value="15.454545454545455"/>
+		<average label="NCSS" value="50.81818181818182"/>
+		<average label="CCN" value="15.454545454545455"/>
+		<average label="NCSS" value="50.81818181818182"/>
+		<average label="CCN" value="15.454545454545455"/>
+		<average label="NCSS" value="50.81818181818182"/>
+		<average label="CCN" value="15.454545454545455"/>
+		<average label="NCSS" value="50.81818181818182"/>
+		<average label="CCN" value="15.454545454545455"/>
+		<average label="NCSS" value="50.81818181818182"/>
+		<average label="CCN" value="15.454545454545455"/>
+		<item name="print_category(...) at src/tool_help.c:79">
+			<value>12</value>
+			<value>23</value>
+			<value>8</value>
+		</item>
+		<item name="get_category_content(...) at src/tool_help.c:106">
+			<value>13</value>
+			<value>11</value>
+			<value>3</value>
+		</item>
+		<item name="get_categories(...) at src/tool_help.c:119">
+			<value>14</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<item name="tool_help(...) at src/tool_help.c:127">
+			<value>15</value>
+			<value>21</value>
+			<value>5</value>
+		</item>
+		<item name="is_debug(...) at src/tool_help.c:154">
+			<value>16</value>
+			<value>8</value>
+			<value>3</value>
+		</item>
+		<item name="tool_version_info(...) at src/tool_help.c:163">
+			<value>17</value>
+			<value>29</value>
+			<value>10</value>
+		</item>
+		<item name="tool_list_engines(...) at src/tool_help.c:199">
+			<value>18</value>
+			<value>16</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="37.388888888888886"/>
+		<average label="CCN" value="11.333333333333334"/>
+		<item name="new_getout(...) at src/tool_paramhlp.c:44">
+			<value>19</value>
+			<value>16</value>
+			<value>3</value>
+		</item>
+		<item name="file2string(...) at src/tool_paramhlp.c:68">
+			<value>20</value>
+			<value>21</value>
+			<value>6</value>
+		</item>
+		<item name="file2memory(...) at src/tool_paramhlp.c:93">
+			<value>21</value>
+			<value>29</value>
+			<value>6</value>
+		</item>
+		<item name="getnum(...) at src/tool_paramhlp.c:132">
+			<value>22</value>
+			<value>16</value>
+			<value>5</value>
+		</item>
+		<item name="str2num(...) at src/tool_paramhlp.c:149">
+			<value>23</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="oct2nummax(...) at src/tool_paramhlp.c:154">
+			<value>24</value>
+			<value>11</value>
+			<value>4</value>
+		</item>
+		<item name="str2unum(...) at src/tool_paramhlp.c:176">
+			<value>25</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<item name="str2unummax(...) at src/tool_paramhlp.c:197">
+			<value>26</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<item name="str2double(...) at src/tool_paramhlp.c:221">
+			<value>27</value>
+			<value>19</value>
+			<value>6</value>
+		</item>
+		<item name="secs2ms(...) at src/tool_paramhlp.c:255">
+			<value>28</value>
+			<value>11</value>
+			<value>3</value>
+		</item>
+		<item name="protoset_index(...) at src/tool_paramhlp.c:274">
+			<value>29</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<item name="protoset_set(...) at src/tool_paramhlp.c:287">
+			<value>30</value>
+			<value>11</value>
+			<value>3</value>
+		</item>
+		<item name="protoset_clear(...) at src/tool_paramhlp.c:301">
+			<value>31</value>
+			<value>11</value>
+			<value>3</value>
+		</item>
+		<item name="proto2num(...) at src/tool_paramhlp.c:328">
+			<value>32</value>
+			<value>92</value>
+			<value>23</value>
+		</item>
+		<item name="check_protocol(...) at src/tool_paramhlp.c:450">
+			<value>33</value>
+			<value>8</value>
+			<value>3</value>
+		</item>
+		<item name="str2offset(...) at src/tool_paramhlp.c:468">
+			<value>34</value>
+			<value>20</value>
+			<value>10</value>
+		</item>
+		<item name="checkpasswd(...) at src/tool_paramhlp.c:496">
+			<value>35</value>
+			<value>36</value>
+			<value>9</value>
+		</item>
+		<item name="add2list(...) at src/tool_paramhlp.c:549">
+			<value>36</value>
+			<value>9</value>
+			<value>2</value>
+		</item>
+		<item name="ftpfilemethod(...) at src/tool_paramhlp.c:560">
+			<value>37</value>
+			<value>12</value>
+			<value>4</value>
+		</item>
+		<item name="ftpcccmethod(...) at src/tool_paramhlp.c:575">
+			<value>38</value>
+			<value>10</value>
+			<value>3</value>
+		</item>
+		<item name="delegation(...) at src/tool_paramhlp.c:588">
+			<value>39</value>
+			<value>12</value>
+			<value>4</value>
+		</item>
+		<item name="my_useragent(...) at src/tool_paramhlp.c:606">
+			<value>40</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="inlist(...) at src/tool_paramhlp.c:617">
+			<value>41</value>
+			<value>13</value>
+			<value>4</value>
+		</item>
+		<item name="get_args(...) at src/tool_paramhlp.c:633">
+			<value>42</value>
+			<value>32</value>
+			<value>14</value>
+		</item>
+		<item name="str2tls_max(...) at src/tool_paramhlp.c:685">
+			<value>43</value>
+			<value>23</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="26.046511627906977"/>
+		<average label="CCN" value="7.767441860465116"/>
+		<average label="NCSS" value="26.046511627906977"/>
+		<average label="CCN" value="7.767441860465116"/>
+		<average label="NCSS" value="26.046511627906977"/>
+		<average label="CCN" value="7.767441860465116"/>
+		<average label="NCSS" value="26.046511627906977"/>
+		<average label="CCN" value="7.767441860465116"/>
+		<item name="getfiletime(...) at src/tool_filetime.c:36">
+			<value>44</value>
+			<value>44</value>
+			<value>7</value>
+		</item>
+		<item name="setfiletime(...) at src/tool_filetime.c:91">
+			<value>45</value>
+			<value>51</value>
+			<value>10</value>
+		</item>
+		<average label="NCSS" value="27.0"/>
+		<average label="CCN" value="7.8"/>
+		<average label="NCSS" value="27.0"/>
+		<average label="CCN" value="7.8"/>
+		<item name="config_init(...) at src/tool_cfgable.c:32">
+			<value>46</value>
+			<value>16</value>
+			<value>1</value>
+		</item>
+		<item name="free_config_fields(...) at src/tool_cfgable.c:50">
+			<value>47</value>
+			<value>111</value>
+			<value>2</value>
+		</item>
+		<item name="config_free(...) at src/tool_cfgable.c:180">
+			<value>48</value>
+			<value>10</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="28.166666666666668"/>
+		<average label="CCN" value="7.416666666666667"/>
+		<item name="is_fatal_error(...) at src/tool_operate.c:115">
+			<value>49</value>
+			<value>14</value>
+			<value>6</value>
+		</item>
+		<item name="is_pkcs11_uri(...) at src/tool_operate.c:136">
+			<value>50</value>
+			<value>9</value>
+			<value>2</value>
+		</item>
+		<item name="vms_realfilesize(...) at src/tool_operate.c:157">
+			<value>51</value>
+			<value>21</value>
+			<value>4</value>
+		</item>
+		<item name="VmsSpecialSize(...) at src/tool_operate.c:188">
+			<value>52</value>
+			<value>12</value>
+			<value>3</value>
+		</item>
+		<item name="add_per_transfer(...) at src/tool_operate.c:210">
+			<value>53</value>
+			<value>18</value>
+			<value>3</value>
+		</item>
+		<item name="del_per_transfer(...) at src/tool_operate.c:236">
+			<value>54</value>
+			<value>21</value>
+			<value>3</value>
+		</item>
+		<item name="pre_transfer(...) at src/tool_operate.c:263">
+			<value>55</value>
+			<value>53</value>
+			<value>17</value>
+		</item>
+		<item name="AmigaSetComment(...) at src/tool_operate.c:346">
+			<value>56</value>
+			<value>10</value>
+			<value>5</value>
+		</item>
+		<item name="single_transfer_cleanup(...) at src/tool_operate.c:364">
+			<value>57</value>
+			<value>17</value>
+			<value>4</value>
+		</item>
+		<item name="post_per_transfer(...) at src/tool_operate.c:387">
+			<value>58</value>
+			<value>221</value>
+			<value>100</value>
+		</item>
+		<item name="ipfs_gateway(...) at src/tool_operate.c:700">
+			<value>59</value>
+			<value>60</value>
+			<value>15</value>
+		</item>
+		<item name="ipfs_url_rewrite(...) at src/tool_operate.c:783">
+			<value>60</value>
+			<value>93</value>
+			<value>16</value>
+		</item>
+		<item name="url_proto(...) at src/tool_operate.c:900">
+			<value>61</value>
+			<value>33</value>
+			<value>10</value>
+		</item>
+		<item name="single_transfer(...) at src/tool_operate.c:942">
+			<value>62</value>
+			<value>1108</value>
+			<value>358</value>
+		</item>
+		<item name="add_parallel_transfers(...) at src/tool_operate.c:2455">
+			<value>63</value>
+			<value>61</value>
+			<value>16</value>
+		</item>
+		<item name="parallel_transfers(...) at src/tool_operate.c:2526">
+			<value>64</value>
+			<value>110</value>
+			<value>38</value>
+		</item>
+		<item name="serial_transfers(...) at src/tool_operate.c:2660">
+			<value>65</value>
+			<value>64</value>
+			<value>20</value>
+		</item>
+		<item name="transfer_per_config(...) at src/tool_operate.c:2743">
+			<value>66</value>
+			<value>75</value>
+			<value>20</value>
+		</item>
+		<item name="create_transfer(...) at src/tool_operate.c:2854">
+			<value>67</value>
+			<value>16</value>
+			<value>4</value>
+		</item>
+		<item name="run_all_transfers(...) at src/tool_operate.c:2872">
+			<value>68</value>
+			<value>26</value>
+			<value>5</value>
+		</item>
+		<item name="operate(...) at src/tool_operate.c:2912">
+			<value>69</value>
+			<value>77</value>
+			<value>25</value>
+		</item>
+		<average label="NCSS" value="50.30434782608695"/>
+		<average label="CCN" value="14.927536231884059"/>
+		<average label="NCSS" value="50.30434782608695"/>
+		<average label="CCN" value="14.927536231884059"/>
+		<item name="tool_read_cb(...) at src/tool_cb_rea.c:46">
+			<value>70</value>
+			<value>46</value>
+			<value>10</value>
+		</item>
+		<item name="tool_readbusy_cb(...) at src/tool_cb_rea.c:114">
+			<value>71</value>
+			<value>16</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="49.76056338028169"/>
+		<average label="CCN" value="14.690140845070422"/>
+		<average label="NCSS" value="49.76056338028169"/>
+		<average label="CCN" value="14.690140845070422"/>
+		<average label="NCSS" value="49.76056338028169"/>
+		<average label="CCN" value="14.690140845070422"/>
+		<item name="glob_fixed(...) at src/tool_urlglob.c:40">
+			<value>72</value>
+			<value>17</value>
+			<value>3</value>
+		</item>
+		<item name="multiply(...) at src/tool_urlglob.c:67">
+			<value>73</value>
+			<value>12</value>
+			<value>3</value>
+		</item>
+		<item name="glob_set(...) at src/tool_urlglob.c:80">
+			<value>74</value>
+			<value>72</value>
+			<value>17</value>
+		</item>
+		<item name="glob_range(...) at src/tool_urlglob.c:175">
+			<value>75</value>
+			<value>114</value>
+			<value>40</value>
+		</item>
+		<item name="peek_ipv6(...) at src/tool_urlglob.c:328">
+			<value>76</value>
+			<value>23</value>
+			<value>6</value>
+		</item>
+		<item name="glob_parse(...) at src/tool_urlglob.c:363">
+			<value>77</value>
+			<value>61</value>
+			<value>21</value>
+		</item>
+		<item name="glob_url(...) at src/tool_urlglob.c:441">
+			<value>78</value>
+			<value>43</value>
+			<value>7</value>
+		</item>
+		<item name="glob_cleanup(...) at src/tool_urlglob.c:497">
+			<value>79</value>
+			<value>20</value>
+			<value>6</value>
+		</item>
+		<item name="glob_next_url(...) at src/tool_urlglob.c:520">
+			<value>80</value>
+			<value>85</value>
+			<value>19</value>
+		</item>
+		<item name="glob_match_url(...) at src/tool_urlglob.c:616">
+			<value>81</value>
+			<value>81</value>
+			<value>17</value>
+		</item>
+		<average label="NCSS" value="50.135802469135804"/>
+		<average label="CCN" value="14.592592592592593"/>
+		<average label="NCSS" value="50.135802469135804"/>
+		<average label="CCN" value="14.592592592592593"/>
+		<average label="NCSS" value="50.135802469135804"/>
+		<average label="CCN" value="14.592592592592593"/>
+		<item name="show_dir_errno(...) at src/tool_dirhie.c:48">
+			<value>82</value>
+			<value>25</value>
+			<value>11</value>
+		</item>
+		<item name="create_dir_hierarchy(...) at src/tool_dirhie.c:99">
+			<value>83</value>
+			<value>49</value>
+			<value>14</value>
+		</item>
+		<average label="NCSS" value="49.81927710843374"/>
+		<average label="CCN" value="14.542168674698795"/>
+		<item name="tool_seek_cb(...) at src/tool_cb_see.c:50">
+			<value>84</value>
+			<value>21</value>
+			<value>9</value>
+		</item>
+		<item name="tool_ftruncate64(...) at src/tool_cb_see.c:123">
+			<value>85</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="49.0"/>
+		<average label="CCN" value="14.341176470588236"/>
+		<item name="checkhome(...) at src/tool_findfile.c:68">
+			<value>86</value>
+			<value>23</value>
+			<value>6</value>
+		</item>
+		<item name="findfile(...) at src/tool_findfile.c:102">
+			<value>87</value>
+			<value>50</value>
+			<value>19</value>
+		</item>
+		<average label="NCSS" value="48.71264367816092"/>
+		<average label="CCN" value="14.298850574712644"/>
+		<average label="NCSS" value="48.71264367816092"/>
+		<average label="CCN" value="14.298850574712644"/>
+		<item name="max5data(...) at src/tool_progress.c:36">
+			<value>88</value>
+			<value>24</value>
+			<value>8</value>
+		</item>
+		<item name="xferinfo_cb(...) at src/tool_progress.c:83">
+			<value>89</value>
+			<value>20</value>
+			<value>3</value>
+		</item>
+		<item name="time2str(...) at src/tool_progress.c:109">
+			<value>90</value>
+			<value>24</value>
+			<value>4</value>
+		</item>
+		<item name="progress_meter(...) at src/tool_progress.c:157">
+			<value>91</value>
+			<value>130</value>
+			<value>23</value>
+		</item>
+		<item name="progress_finalize(...) at src/tool_progress.c:308">
+			<value>92</value>
+			<value>13</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="48.358695652173914"/>
+		<average label="CCN" value="13.967391304347826"/>
+		<item name="jsonquoted(...) at src/tool_writeout_json.c:41">
+			<value>93</value>
+			<value>45</value>
+			<value>15</value>
+		</item>
+		<item name="jsonWriteString(...) at src/tool_writeout_json.c:89">
+			<value>94</value>
+			<value>12</value>
+			<value>3</value>
+		</item>
+		<item name="ourWriteOutJSON(...) at src/tool_writeout_json.c:103">
+			<value>95</value>
+			<value>14</value>
+			<value>4</value>
+		</item>
+		<item name="headerJSON(...) at src/tool_writeout_json.c:128">
+			<value>96</value>
+			<value>43</value>
+			<value>9</value>
+		</item>
+		<average label="NCSS" value="47.53125"/>
+		<average label="CCN" value="13.708333333333334"/>
+		<average label="NCSS" value="47.53125"/>
+		<average label="CCN" value="13.708333333333334"/>
+		<item name="param2text(...) at src/tool_helpers.c:43">
+			<value>97</value>
+			<value>42</value>
+			<value>18</value>
+		</item>
+		<item name="SetHTTPrequest(...) at src/tool_helpers.c:86">
+			<value>98</value>
+			<value>20</value>
+			<value>3</value>
+		</item>
+		<item name="customrequest_helper(...) at src/tool_helpers.c:110">
+			<value>99</value>
+			<value>23</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="46.94949494949495"/>
+		<average label="CCN" value="13.545454545454545"/>
+		<item name="sanitize_file_name(...) at src/tool_doswin.c:113">
+			<value>100</value>
+			<value>90</value>
+			<value>35</value>
+		</item>
+		<item name="truncate_dryrun(...) at src/tool_doswin.c:263">
+			<value>101</value>
+			<value>22</value>
+			<value>11</value>
+		</item>
+		<item name="msdosify(...) at src/tool_doswin.c:313">
+			<value>102</value>
+			<value>109</value>
+			<value>47</value>
+		</item>
+		<item name="rename_if_reserved_dos_device_name(...) at src/tool_doswin.c:460">
+			<value>103</value>
+			<value>83</value>
+			<value>42</value>
+		</item>
+		<item name="__crt0_glob_function(...) at src/tool_doswin.c:592">
+			<value>104</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="FindWin32CACert(...) at src/tool_doswin.c:617">
+			<value>105</value>
+			<value>23</value>
+			<value>6</value>
+		</item>
+		<item name="GetLoadedModulePaths(...) at src/tool_doswin.c:656">
+			<value>106</value>
+			<value>36</value>
+			<value>10</value>
+		</item>
+		<item name="restore_terminal(...) at src/tool_doswin.c:717">
+			<value>107</value>
+			<value>5</value>
+			<value>2</value>
+		</item>
+		<item name="signal_handler(...) at src/tool_doswin.c:726">
+			<value>108</value>
+			<value>6</value>
+			<value>3</value>
+		</item>
+		<item name="init_terminal(...) at src/tool_doswin.c:733">
+			<value>109</value>
+			<value>22</value>
+			<value>6</value>
+		</item>
+		<item name="win32_init(...) at src/tool_doswin.c:767">
+			<value>110</value>
+			<value>11</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="46.0"/>
+		<average label="CCN" value="13.690909090909091"/>
+		<average label="NCSS" value="46.0"/>
+		<average label="CCN" value="13.690909090909091"/>
+		<average label="NCSS" value="46.0"/>
+		<average label="CCN" value="13.690909090909091"/>
+		<item name="tvnow(...) at src/tool_util.c:37">
+			<value>111</value>
+			<value>17</value>
+			<value>4</value>
+		</item>
+		<item name="tvnow(...) at src/tool_util.c:66">
+			<value>112</value>
+			<value>16</value>
+			<value>3</value>
+		</item>
+		<item name="tvnow(...) at src/tool_util.c:100">
+			<value>113</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="tvnow(...) at src/tool_util.c:114">
+			<value>114</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="tvdiff(...) at src/tool_util.c:133">
+			<value>115</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="struplocompare(...) at src/tool_util.c:140">
+			<value>116</value>
+			<value>11</value>
+			<value>7</value>
+		</item>
+		<item name="struplocompare4sort(...) at src/tool_util.c:158">
+			<value>117</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="43.81196581196581"/>
+		<average label="CCN" value="13.025641025641026"/>
+		<item name="execpath(...) at src/tool_parsecfg.c:50">
+			<value>118</value>
+			<value>21</value>
+			<value>5</value>
+		</item>
+		<item name="parseconfig(...) at src/tool_parsecfg.c:82">
+			<value>119</value>
+			<value>153</value>
+			<value>60</value>
+		</item>
+		<item name="unslashquote(...) at src/tool_parsecfg.c:296">
+			<value>120</value>
+			<value>31</value>
+			<value>9</value>
+		</item>
+		<item name="my_get_line(...) at src/tool_parsecfg.c:333">
+			<value>121</value>
+			<value>15</value>
+			<value>5</value>
+		</item>
+		<average label="NCSS" value="44.18181818181818"/>
+		<average label="CCN" value="13.24793388429752"/>
+		<item name="tool_header_cb(...) at src/tool_cb_hdr.c:68">
+			<value>122</value>
+			<value>118</value>
+			<value>51</value>
+		</item>
+		<item name="parse_filename(...) at src/tool_cb_hdr.c:238">
+			<value>123</value>
+			<value>65</value>
+			<value>16</value>
+		</item>
+		<item name="write_linked_location(...) at src/tool_cb_hdr.c:345">
+			<value>124</value>
+			<value>58</value>
+			<value>22</value>
+		</item>
+		<average label="NCSS" value="45.056451612903224"/>
+		<average label="CCN" value="13.64516129032258"/>
+		<item name="tool_init_stderr(...) at src/tool_stderr.c:37">
+			<value>125</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="tool_set_stderr_file(...) at src/tool_stderr.c:42">
+			<value>126</value>
+			<value>22</value>
+			<value>5</value>
+		</item>
+		<average label="NCSS" value="44.54761904761905"/>
+		<average label="CCN" value="13.476190476190476"/>
+		<item name="parse_cert_parameter(...) at src/tool_getparam.c:372">
+			<value>127</value>
+			<value>69</value>
+			<value>18</value>
+		</item>
+		<item name="replace_url_encoded_space_by_plus(...) at src/tool_getparam.c:467">
+			<value>128</value>
+			<value>23</value>
+			<value>6</value>
+		</item>
+		<item name="GetFileAndPassword(...) at src/tool_getparam.c:495">
+			<value>129</value>
+			<value>11</value>
+			<value>2</value>
+		</item>
+		<item name="GetSizeParameter(...) at src/tool_getparam.c:510">
+			<value>130</value>
+			<value>44</value>
+			<value>15</value>
+		</item>
+		<item name="cleanarg(...) at src/tool_getparam.c:560">
+			<value>131</value>
+			<value>7</value>
+			<value>2</value>
+		</item>
+		<item name="data_urlencode(...) at src/tool_getparam.c:575">
+			<value>132</value>
+			<value>82</value>
+			<value>15</value>
+		</item>
+		<item name="sethttpver(...) at src/tool_getparam.c:675">
+			<value>133</value>
+			<value>9</value>
+			<value>3</value>
+		</item>
+		<item name="set_trace_config(...) at src/tool_getparam.c:686">
+			<value>134</value>
+			<value>49</value>
+			<value>10</value>
+		</item>
+		<item name="getparameter(...) at src/tool_getparam.c:741">
+			<value>135</value>
+			<value>1672</value>
+			<value>510</value>
+		</item>
+		<item name="parse_args(...) at src/tool_getparam.c:2685">
+			<value>136</value>
+			<value>78</value>
+			<value>27</value>
+		</item>
+		<average label="NCSS" value="56.3014705882353"/>
+		<average label="CCN" value="16.955882352941178"/>
+		<average label="NCSS" value="56.3014705882353"/>
+		<average label="CCN" value="16.955882352941178"/>
+		<average label="NCSS" value="56.3014705882353"/>
+		<average label="CCN" value="16.955882352941178"/>
+		<average label="NCSS" value="56.3014705882353"/>
+		<average label="CCN" value="16.955882352941178"/>
+		<average label="NCSS" value="56.3014705882353"/>
+		<average label="CCN" value="16.955882352941178"/>
+		<average label="NCSS" value="56.3014705882353"/>
+		<average label="CCN" value="16.955882352941178"/>
+		<item name="tool_create_output_file(...) at src/tool_cb_wrt.c:54">
+			<value>137</value>
+			<value>82</value>
+			<value>24</value>
+		</item>
+		<item name="tool_write_cb(...) at src/tool_cb_wrt.c:154">
+			<value>138</value>
+			<value>185</value>
+			<value>74</value>
+		</item>
+		<average label="NCSS" value="57.42028985507246"/>
+		<average label="CCN" value="17.420289855072465"/>
+		<item name="slist_wc_append(...) at src/slist_wc.c:38">
+			<value>139</value>
+			<value>20</value>
+			<value>4</value>
+		</item>
+		<item name="slist_wc_free_all(...) at src/slist_wc.c:65">
+			<value>140</value>
+			<value>7</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="56.792857142857144"/>
+		<average label="CCN" value="17.214285714285715"/>
+		<item name="tool_basename(...) at src/tool_bname.c:32">
+			<value>141</value>
+			<value>15</value>
+			<value>6</value>
+		</item>
+		<average label="NCSS" value="56.49645390070922"/>
+		<average label="CCN" value="17.134751773049647"/>
+		<average label="NCSS" value="56.49645390070922"/>
+		<average label="CCN" value="17.134751773049647"/>
+		<average label="NCSS" value="56.49645390070922"/>
+		<average label="CCN" value="17.134751773049647"/>
+		<average label="NCSS" value="56.49645390070922"/>
+		<average label="CCN" value="17.134751773049647"/>
+		<item name="stripcredentials(...) at src/tool_xattr.c:51">
+			<value>142</value>
+			<value>26</value>
+			<value>6</value>
+		</item>
+		<item name="xattr(...) at src/tool_xattr.c:83">
+			<value>143</value>
+			<value>20</value>
+			<value>8</value>
+		</item>
+		<item name="fwrite_xattr(...) at src/tool_xattr.c:114">
+			<value>144</value>
+			<value>20</value>
+			<value>7</value>
+		</item>
+		<average label="NCSS" value="55.77777777777778"/>
+		<average label="CCN" value="16.92361111111111"/>
+		<average label="NCSS" value="55.77777777777778"/>
+		<average label="CCN" value="16.92361111111111"/>
+		<item name="set_binmode(...) at src/tool_binmode.c:40">
+			<value>145</value>
+			<value>6</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="55.43448275862069"/>
+		<average label="CCN" value="16.82758620689655"/>
+		<item name="clean_getout(...) at src/tool_operhlp.c:39">
+			<value>146</value>
+			<value>17</value>
+			<value>3</value>
+		</item>
+		<item name="output_expected(...) at src/tool_operhlp.c:58">
+			<value>147</value>
+			<value>8</value>
+			<value>4</value>
+		</item>
+		<item name="stdin_upload(...) at src/tool_operhlp.c:68">
+			<value>148</value>
+			<value>5</value>
+			<value>3</value>
+		</item>
+		<item name="urlerr_cvt(...) at src/tool_operhlp.c:75">
+			<value>149</value>
+			<value>12</value>
+			<value>5</value>
+		</item>
+		<item name="add_file_name_to_url(...) at src/tool_operhlp.c:92">
+			<value>150</value>
+			<value>73</value>
+			<value>16</value>
+		</item>
+		<item name="get_url_file_name(...) at src/tool_operhlp.c:183">
+			<value>151</value>
+			<value>54</value>
+			<value>14</value>
+		</item>
+		<average label="NCSS" value="54.35099337748344"/>
+		<average label="CCN" value="16.456953642384107"/>
+		<item name="Memdup(...) at src/var.c:46">
+			<value>152</value>
+			<value>10</value>
+			<value>3</value>
+		</item>
+		<item name="varcleanup(...) at src/var.c:58">
+			<value>153</value>
+			<value>11</value>
+			<value>2</value>
+		</item>
+		<item name="varcontent(...) at src/var.c:70">
+			<value>154</value>
+			<value>13</value>
+			<value>4</value>
+		</item>
+		<item name="varfunc(...) at src/var.c:97">
+			<value>155</value>
+			<value>97</value>
+			<value>28</value>
+		</item>
+		<item name="varexpand(...) at src/var.c:209">
+			<value>156</value>
+			<value>108</value>
+			<value>29</value>
+		</item>
+		<item name="addvariable(...) at src/var.c:349">
+			<value>157</value>
+			<value>30</value>
+			<value>6</value>
+		</item>
+		<item name="setvariable(...) at src/var.c:384">
+			<value>158</value>
+			<value>75</value>
+			<value>20</value>
+		</item>
+		<average label="NCSS" value="54.120253164556964"/>
+		<average label="CCN" value="16.310126582278482"/>
+		<item name="strdup(...) at src/tool_strdup.c:27">
+			<value>159</value>
+			<value>13</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="53.861635220125784"/>
+		<average label="CCN" value="16.22641509433962"/>
+		<average label="NCSS" value="53.861635220125784"/>
+		<average label="CCN" value="16.22641509433962"/>
+		<item name="tool_go_sleep(...) at src/tool_sleep.c:46">
+			<value>160</value>
+			<value>11</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="53.59375"/>
+		<average label="CCN" value="16.15"/>
+		<average label="NCSS" value="53.59375"/>
+		<average label="CCN" value="16.15"/>
+		<average label="NCSS" value="53.59375"/>
+		<average label="CCN" value="16.15"/>
+		<item name="easysrc_free(...) at src/tool_easysrc.c:82">
+			<value>161</value>
+			<value>13</value>
+			<value>1</value>
+		</item>
+		<item name="easysrc_add(...) at src/tool_easysrc.c:97">
+			<value>162</value>
+			<value>12</value>
+			<value>2</value>
+		</item>
+		<item name="easysrc_addf(...) at src/tool_easysrc.c:110">
+			<value>163</value>
+			<value>17</value>
+			<value>2</value>
+		</item>
+		<item name="easysrc_init(...) at src/tool_easysrc.c:130">
+			<value>164</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="easysrc_perform(...) at src/tool_easysrc.c:137">
+			<value>165</value>
+			<value>23</value>
+			<value>5</value>
+		</item>
+		<item name="easysrc_cleanup(...) at src/tool_easysrc.c:167">
+			<value>166</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="dumpeasysrc(...) at src/tool_easysrc.c:175">
+			<value>167</value>
+			<value>50</value>
+			<value>15</value>
+		</item>
+		<average label="NCSS" value="52.10778443113772"/>
+		<average label="CCN" value="15.634730538922156"/>
+		<average label="NCSS" value="52.10778443113772"/>
+		<average label="CCN" value="15.634730538922156"/>
+		<average label="NCSS" value="52.10778443113772"/>
+		<average label="CCN" value="15.634730538922156"/>
+		<item name="get_libcurl_info(...) at src/tool_libinfo.c:137">
+			<value>168</value>
+			<value>40</value>
+			<value>15</value>
+		</item>
+		<item name="proto_token(...) at src/tool_libinfo.c:198">
+			<value>169</value>
+			<value>10</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="51.78698224852071"/>
+		<average label="CCN" value="15.562130177514794"/>
+		<average label="NCSS" value="51.78698224852071"/>
+		<average label="CCN" value="15.562130177514794"/>
+		<average label="NCSS" value="51.78698224852071"/>
+		<average label="CCN" value="15.562130177514794"/>
+		<average label="NCSS" value="51.78698224852071"/>
+		<average label="CCN" value="15.562130177514794"/>
+		<average label="NCSS" value="51.78698224852071"/>
+		<average label="CCN" value="15.562130177514794"/>
+		<item name="main_checkfds(...) at src/tool_main.c:92">
+			<value>170</value>
+			<value>10</value>
+			<value>5</value>
+		</item>
+		<item name="memory_tracking_init(...) at src/tool_main.c:107">
+			<value>171</value>
+			<value>21</value>
+			<value>7</value>
+		</item>
+		<item name="main_init(...) at src/tool_main.c:143">
+			<value>172</value>
+			<value>32</value>
+			<value>5</value>
+		</item>
+		<item name="free_globalconfig(...) at src/tool_main.c:189">
+			<value>173</value>
+			<value>8</value>
+			<value>3</value>
+		</item>
+		<item name="main_free(...) at src/tool_main.c:204">
+			<value>174</value>
+			<value>8</value>
+			<value>1</value>
+		</item>
+		<item name="main(...) at src/tool_main.c:228">
+			<value>175</value>
+			<value>33</value>
+			<value>12</value>
+		</item>
+		<average label="NCSS" value="50.651428571428575"/>
+		<average label="CCN" value="15.217142857142857"/>
+		<item name="is_vms_shell(...) at src/tool_vms.c:50">
+			<value>176</value>
+			<value>17</value>
+			<value>4</value>
+		</item>
+		<item name="vms_special_exit(...) at src/tool_vms.c:93">
+			<value>177</value>
+			<value>14</value>
+			<value>4</value>
+		</item>
+		<item name="decc_init(...) at src/tool_vms.c:149">
+			<value>178</value>
+			<value>33</value>
+			<value>6</value>
+		</item>
+		<average label="NCSS" value="50.157303370786515"/>
+		<average label="CCN" value="15.039325842696629"/>
+		<average label="NCSS" value="50.157303370786515"/>
+		<average label="CCN" value="15.039325842696629"/>
+		<average label="NCSS" value="50.157303370786515"/>
+		<average label="CCN" value="15.039325842696629"/>
+		<item name="hms_for_sec(...) at src/tool_cb_dbg.c:45">
+			<value>179</value>
+			<value>21</value>
+			<value>3</value>
+		</item>
+		<item name="log_line_start(...) at src/tool_cb_dbg.c:70">
+			<value>180</value>
+			<value>11</value>
+			<value>5</value>
+		</item>
+		<item name="tool_debug_cb(...) at src/tool_cb_dbg.c:92">
+			<value>181</value>
+			<value>131</value>
+			<value>43</value>
+		</item>
+		<item name="dump(...) at src/tool_cb_dbg.c:248">
+			<value>182</value>
+			<value>41</value>
+			<value>18</value>
+		</item>
+		<average label="NCSS" value="50.175824175824175"/>
+		<average label="CCN" value="15.087912087912088"/>
+		<item name="c_escape(...) at src/tool_setopt.c:207">
+			<value>183</value>
+			<value>41</value>
+			<value>14</value>
+		</item>
+		<item name="tool_setopt_enum(...) at src/tool_setopt.c:266">
+			<value>184</value>
+			<value>27</value>
+			<value>10</value>
+		</item>
+		<item name="tool_setopt_bitmask(...) at src/tool_setopt.c:304">
+			<value>185</value>
+			<value>33</value>
+			<value>10</value>
+		</item>
+		<item name="libcurl_generate_slist(...) at src/tool_setopt.c:348">
+			<value>186</value>
+			<value>21</value>
+			<value>3</value>
+		</item>
+		<item name="libcurl_generate_mime_part(...) at src/tool_setopt.c:380">
+			<value>187</value>
+			<value>90</value>
+			<value>25</value>
+		</item>
+		<item name="libcurl_generate_mime(...) at src/tool_setopt.c:490">
+			<value>188</value>
+			<value>20</value>
+			<value>2</value>
+		</item>
+		<item name="tool_setopt_mimepost(...) at src/tool_setopt.c:516">
+			<value>189</value>
+			<value>15</value>
+			<value>4</value>
+		</item>
+		<item name="tool_setopt_slist(...) at src/tool_setopt.c:536">
+			<value>190</value>
+			<value>15</value>
+			<value>5</value>
+		</item>
+		<item name="tool_setopt(...) at src/tool_setopt.c:558">
+			<value>191</value>
+			<value>91</value>
+			<value>21</value>
+		</item>
+		<average label="NCSS" value="49.659685863874344"/>
+		<average label="CCN" value="14.86910994764398"/>
+		<item name="tool_mime_new(...) at src/tool_formparse.c:42">
+			<value>192</value>
+			<value>14</value>
+			<value>3</value>
+		</item>
+		<item name="tool_mime_new_parts(...) at src/tool_formparse.c:58">
+			<value>193</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="tool_mime_new_data(...) at src/tool_formparse.c:63">
+			<value>194</value>
+			<value>15</value>
+			<value>3</value>
+		</item>
+		<item name="tool_mime_new_filedata(...) at src/tool_formparse.c:80">
+			<value>195</value>
+			<value>71</value>
+			<value>19</value>
+		</item>
+		<item name="tool_mime_free(...) at src/tool_formparse.c:161">
+			<value>196</value>
+			<value>16</value>
+			<value>4</value>
+		</item>
+		<item name="tool_mime_stdin_read(...) at src/tool_formparse.c:180">
+			<value>197</value>
+			<value>31</value>
+			<value>8</value>
+		</item>
+		<item name="tool_mime_stdin_seek(...) at src/tool_formparse.c:216">
+			<value>198</value>
+			<value>20</value>
+			<value>6</value>
+		</item>
+		<item name="tool2curlparts(...) at src/tool_formparse.c:240">
+			<value>199</value>
+			<value>60</value>
+			<value>23</value>
+		</item>
+		<item name="tool2curlmime(...) at src/tool_formparse.c:308">
+			<value>200</value>
+			<value>14</value>
+			<value>3</value>
+		</item>
+		<item name="get_param_word(...) at src/tool_formparse.c:329">
+			<value>201</value>
+			<value>51</value>
+			<value>21</value>
+		</item>
+		<item name="slist_append(...) at src/tool_formparse.c:389">
+			<value>202</value>
+			<value>8</value>
+			<value>2</value>
+		</item>
+		<item name="read_field_headers(...) at src/tool_formparse.c:401">
+			<value>203</value>
+			<value>55</value>
+			<value>18</value>
+		</item>
+		<item name="get_param_part(...) at src/tool_formparse.c:462">
+			<value>204</value>
+			<value>171</value>
+			<value>62</value>
+		</item>
+		<item name="formparse(...) at src/tool_formparse.c:717">
+			<value>205</value>
+			<value>155</value>
+			<value>34</value>
+		</item>
+		<average label="NCSS" value="49.609756097560975"/>
+		<average label="CCN" value="14.863414634146341"/>
+		<item name="getpass_r(...) at src/tool_getpass.c:62">
+			<value>206</value>
+			<value>24</value>
+			<value>4</value>
+		</item>
+		<item name="getpass_r(...) at src/tool_getpass.c:99">
+			<value>207</value>
+			<value>19</value>
+			<value>7</value>
+		</item>
+		<item name="ttyecho(...) at src/tool_getpass.c:137">
+			<value>208</value>
+			<value>22</value>
+			<value>7</value>
+		</item>
+		<item name="getpass_r(...) at src/tool_getpass.c:175">
+			<value>209</value>
+			<value>24</value>
+			<value>5</value>
+		</item>
+		<average label="NCSS" value="49.08612440191388"/>
+		<average label="CCN" value="14.688995215311005"/>
+		<average label="NCSS" value="49.08612440191388"/>
+		<average label="CCN" value="14.688995215311005"/>
+		<average label="NCSS" value="49.08612440191388"/>
+		<average label="CCN" value="14.688995215311005"/>
+		<average label="NCSS" value="49.08612440191388"/>
+		<average label="CCN" value="14.688995215311005"/>
+		<item name="fly(...) at src/tool_cb_prg.c:79">
+			<value>210</value>
+			<value>29</value>
+			<value>5</value>
+		</item>
+		<item name="tool_progress_cb(...) at src/tool_cb_prg.c:126">
+			<value>211</value>
+			<value>73</value>
+			<value>20</value>
+		</item>
+		<item name="progressbarinit(...) at src/tool_cb_prg.c:220">
+			<value>212</value>
+			<value>44</value>
+			<value>18</value>
+		</item>
+		<average label="NCSS" value="49.08018867924528"/>
+		<average label="CCN" value="14.683962264150944"/>
+		<average label="NCSS" value="49.08018867924528"/>
+		<average label="CCN" value="14.683962264150944"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="src/tool_msgs.c">
+			<value>1</value>
+			<value>83</value>
+			<value>17</value>
+			<value>5</value>
+		</item>
+		<item name="src/tool_main.h">
+			<value>2</value>
+			<value>1</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_helpers.h">
+			<value>3</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_writeout.c">
+			<value>4</value>
+			<value>589</value>
+			<value>153</value>
+			<value>6</value>
+		</item>
+		<item name="src/tool_doswin.h">
+			<value>5</value>
+			<value>22</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_setup.h">
+			<value>6</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_easysrc.h">
+			<value>7</value>
+			<value>15</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cfgable.h">
+			<value>8</value>
+			<value>274</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_rea.h">
+			<value>9</value>
+			<value>5</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_help.c">
+			<value>10</value>
+			<value>155</value>
+			<value>34</value>
+			<value>7</value>
+		</item>
+		<item name="src/tool_paramhlp.c">
+			<value>11</value>
+			<value>460</value>
+			<value>130</value>
+			<value>25</value>
+		</item>
+		<item name="src/tool_formparse.h">
+			<value>12</value>
+			<value>36</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_bname.h">
+			<value>13</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_xattr.h">
+			<value>14</value>
+			<value>5</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_filetime.c">
+			<value>15</value>
+			<value>101</value>
+			<value>17</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_operate.h">
+			<value>16</value>
+			<value>45</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cfgable.c">
+			<value>17</value>
+			<value>142</value>
+			<value>5</value>
+			<value>3</value>
+		</item>
+		<item name="src/tool_operate.c">
+			<value>18</value>
+			<value>2175</value>
+			<value>674</value>
+			<value>21</value>
+		</item>
+		<item name="src/tool_getparam.h">
+			<value>19</value>
+			<value>39</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_rea.c">
+			<value>20</value>
+			<value>71</value>
+			<value>13</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_binmode.h">
+			<value>21</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_listhelp.c">
+			<value>22</value>
+			<value>779</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_urlglob.c">
+			<value>23</value>
+			<value>536</value>
+			<value>139</value>
+			<value>10</value>
+		</item>
+		<item name="src/var.h">
+			<value>24</value>
+			<value>14</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_sdecls.h">
+			<value>25</value>
+			<value>35</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_dirhie.c">
+			<value>26</value>
+			<value>81</value>
+			<value>25</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_cb_see.c">
+			<value>27</value>
+			<value>36</value>
+			<value>12</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_findfile.c">
+			<value>28</value>
+			<value>96</value>
+			<value>25</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_cb_dbg.h">
+			<value>29</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_progress.c">
+			<value>30</value>
+			<value>229</value>
+			<value>41</value>
+			<value>5</value>
+		</item>
+		<item name="src/tool_writeout_json.c">
+			<value>31</value>
+			<value>119</value>
+			<value>31</value>
+			<value>4</value>
+		</item>
+		<item name="src/tool_dirhie.h">
+			<value>32</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_helpers.c">
+			<value>33</value>
+			<value>93</value>
+			<value>25</value>
+			<value>3</value>
+		</item>
+		<item name="src/tool_doswin.c">
+			<value>34</value>
+			<value>437</value>
+			<value>165</value>
+			<value>11</value>
+		</item>
+		<item name="src/tool_operhlp.h">
+			<value>35</value>
+			<value>8</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_progress.h">
+			<value>36</value>
+			<value>11</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_util.c">
+			<value>37</value>
+			<value>70</value>
+			<value>18</value>
+			<value>7</value>
+		</item>
+		<item name="src/tool_parsecfg.c">
+			<value>38</value>
+			<value>232</value>
+			<value>79</value>
+			<value>4</value>
+		</item>
+		<item name="src/tool_cb_hdr.c">
+			<value>39</value>
+			<value>256</value>
+			<value>89</value>
+			<value>3</value>
+		</item>
+		<item name="src/tool_stderr.c">
+			<value>40</value>
+			<value>31</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_getparam.c">
+			<value>41</value>
+			<value>2342</value>
+			<value>608</value>
+			<value>10</value>
+		</item>
+		<item name="src/tool_msgs.h">
+			<value>42</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_see.h">
+			<value>43</value>
+			<value>3</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_writeout.h">
+			<value>44</value>
+			<value>82</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/slist_wc.h">
+			<value>45</value>
+			<value>7</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_strdup.h">
+			<value>46</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_wrt.c">
+			<value>47</value>
+			<value>276</value>
+			<value>98</value>
+			<value>2</value>
+		</item>
+		<item name="src/slist_wc.c">
+			<value>48</value>
+			<value>30</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_bname.c">
+			<value>49</value>
+			<value>18</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="src/tool_parsecfg.h">
+			<value>50</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_version.h">
+			<value>51</value>
+			<value>1</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_util.h">
+			<value>52</value>
+			<value>5</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_xattr.c">
+			<value>53</value>
+			<value>79</value>
+			<value>21</value>
+			<value>3</value>
+		</item>
+		<item name="src/tool_writeout_json.h">
+			<value>54</value>
+			<value>8</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_binmode.c">
+			<value>55</value>
+			<value>11</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="src/tool_operhlp.c">
+			<value>56</value>
+			<value>177</value>
+			<value>45</value>
+			<value>6</value>
+		</item>
+		<item name="src/var.c">
+			<value>57</value>
+			<value>358</value>
+			<value>92</value>
+			<value>7</value>
+		</item>
+		<item name="src/tool_strdup.c">
+			<value>58</value>
+			<value>14</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="src/tool_sleep.h">
+			<value>59</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_sleep.c">
+			<value>60</value>
+			<value>19</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="src/tool_setopt.h">
+			<value>61</value>
+			<value>39</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_findfile.h">
+			<value>62</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_easysrc.c">
+			<value>63</value>
+			<value>168</value>
+			<value>27</value>
+			<value>7</value>
+		</item>
+		<item name="src/tool_cb_wrt.h">
+			<value>64</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_urlglob.h">
+			<value>65</value>
+			<value>43</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_libinfo.c">
+			<value>66</value>
+			<value>136</value>
+			<value>19</value>
+			<value>2</value>
+		</item>
+		<item name="src/tool_getpass.h">
+			<value>67</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_libinfo.h">
+			<value>68</value>
+			<value>31</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_hugehelp.h">
+			<value>69</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_hdr.h">
+			<value>70</value>
+			<value>10</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_main.c">
+			<value>71</value>
+			<value>131</value>
+			<value>33</value>
+			<value>6</value>
+		</item>
+		<item name="src/tool_vms.c">
+			<value>72</value>
+			<value>88</value>
+			<value>14</value>
+			<value>3</value>
+		</item>
+		<item name="src/tool_paramhlp.h">
+			<value>73</value>
+			<value>21</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_vms.h">
+			<value>74</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_dbg.c">
+			<value>75</value>
+			<value>214</value>
+			<value>69</value>
+			<value>4</value>
+		</item>
+		<item name="src/tool_setopt.c">
+			<value>76</value>
+			<value>466</value>
+			<value>94</value>
+			<value>9</value>
+		</item>
+		<item name="src/tool_formparse.c">
+			<value>77</value>
+			<value>695</value>
+			<value>207</value>
+			<value>14</value>
+		</item>
+		<item name="src/tool_getpass.c">
+			<value>78</value>
+			<value>100</value>
+			<value>23</value>
+			<value>4</value>
+		</item>
+		<item name="src/tool_stderr.h">
+			<value>79</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_filetime.h">
+			<value>80</value>
+			<value>6</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_help.h">
+			<value>81</value>
+			<value>11</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="src/tool_cb_prg.c">
+			<value>82</value>
+			<value>180</value>
+			<value>43</value>
+			<value>3</value>
+		</item>
+		<item name="src/tool_cb_prg.h">
+			<value>83</value>
+			<value>17</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<average label="NCSS" value="158.0843373493976"/>
+		<average label="CCN" value="37.506024096385545"/>
+		<average label="Functions" value="2.5542168674698793"/>
+		<sum label="NCSS" value="13121"/>
+		<sum label="CCN" value="3113"/>
+		<sum label="Functions" value="212"/>
+		<average label="NCSS" value="49.08018867924528"/>
+		<average label="CCN" value="14.683962264150944"/>
+	</measure>
+</cppncss>
+

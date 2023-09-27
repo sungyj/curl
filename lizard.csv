@@ -1,0 +1,212 @@
+39,8,213,4,46,"voutf@39-84@src/tool_msgs.c","src/tool_msgs.c","voutf","voutf( struct GlobalConfig * config , const char * prefix , const char * fmt , va_list ap)",39,84
+8,2,48,2,8,"notef@90-97@src/tool_msgs.c","src/tool_msgs.c","notef","notef( struct GlobalConfig * config , const char * fmt , ...)",90,97
+7,1,42,2,7,"warnf@104-110@src/tool_msgs.c","src/tool_msgs.c","warnf","warnf( struct GlobalConfig * config , const char * fmt , ...)",104,110
+15,3,79,2,17,"helpf@115-131@src/tool_msgs.c","src/tool_msgs.c","helpf","helpf( FILE * errors , const char * fmt , ...)",115,131
+9,3,55,2,9,"errorf@137-145@src/tool_msgs.c","src/tool_msgs.c","errorf","errorf( struct GlobalConfig * config , const char * fmt , ...)",137,145
+30,6,159,5,36,"writeTime@153-188@src/tool_writeout.c","src/tool_writeout.c","writeTime","writeTime( FILE * stream , const struct writeoutvar * wovar , struct per_transfer * per , CURLcode per_result , bool use_json)",153,188
+75,31,295,3,80,"urlpart@190-269@src/tool_writeout.c","src/tool_writeout.c","urlpart","urlpart( struct per_transfer * per , writeoutid vid , const char ** contentp)",190,269
+142,54,691,5,149,"writeString@271-419@src/tool_writeout.c","src/tool_writeout.c","writeString","writeString( FILE * stream , const struct writeoutvar * wovar , struct per_transfer * per , CURLcode per_result , bool use_json)",271,419
+52,14,252,5,56,"writeLong@421-476@src/tool_writeout.c","src/tool_writeout.c","writeLong","writeLong( FILE * stream , const struct writeoutvar * wovar , struct per_transfer * per , CURLcode per_result , bool use_json)",421,476
+27,6,143,5,32,"writeOffset@478-509@src/tool_writeout.c","src/tool_writeout.c","writeOffset","writeOffset( FILE * stream , const struct writeoutvar * wovar , struct per_transfer * per , CURLcode per_result , bool use_json)",478,509
+155,42,839,3,164,"ourWriteOut@511-674@src/tool_writeout.c","src/tool_writeout.c","ourWriteOut","ourWriteOut( struct OperationConfig * config , struct per_transfer * per , CURLcode per_result)",511,674
+23,8,169,1,25,"print_category@79-103@src/tool_help.c","src/tool_help.c","print_category","print_category( curlhelp_t category)",79,103
+11,3,80,1,11,"get_category_content@106-116@src/tool_help.c","src/tool_help.c","get_category_content","get_category_content( const char * category)",106,116
+6,2,45,1,6,"get_categories@119-124@src/tool_help.c","src/tool_help.c","get_categories","get_categories( void)",119,124
+21,5,95,1,26,"tool_help@127-152@src/tool_help.c","src/tool_help.c","tool_help","tool_help( char * category)",127,152
+8,3,41,1,8,"is_debug@154-161@src/tool_help.c","src/tool_help.c","is_debug","is_debug( void)",154,161
+29,10,174,1,35,"tool_version_info@163-197@src/tool_help.c","src/tool_help.c","tool_version_info","tool_version_info( void)",163,197
+16,3,80,1,21,"tool_list_engines@199-219@src/tool_help.c","src/tool_help.c","tool_list_engines","tool_list_engines( void)",199,219
+16,3,87,1,21,"new_getout@44-64@src/tool_paramhlp.c","src/tool_paramhlp.c","new_getout","new_getout( struct OperationConfig * config)",44,64
+21,6,122,2,22,"file2string@68-89@src/tool_paramhlp.c","src/tool_paramhlp.c","file2string","file2string( char ** bufp , FILE * file)",68,89
+29,6,159,3,30,"file2memory@93-122@src/tool_paramhlp.c","src/tool_paramhlp.c","file2memory","file2memory( char ** bufp , size_t * size , FILE * file)",93,122
+16,5,84,3,16,"getnum@132-147@src/tool_paramhlp.c","src/tool_paramhlp.c","getnum","getnum( long * val , const char * str , int base)",132,147
+4,1,23,2,4,"str2num@149-152@src/tool_paramhlp.c","src/tool_paramhlp.c","str2num","str2num( long * val , const char * str)",149,152
+11,4,62,3,12,"oct2nummax@154-165@src/tool_paramhlp.c","src/tool_paramhlp.c","oct2nummax","oct2nummax( long * val , const char * str , long max)",154,165
+9,3,47,2,10,"str2unum@176-185@src/tool_paramhlp.c","src/tool_paramhlp.c","str2unum","str2unum( long * val , const char * str)",176,185
+9,3,48,3,10,"str2unummax@197-206@src/tool_paramhlp.c","src/tool_paramhlp.c","str2unummax","str2unummax( long * val , const char * str , long max)",197,206
+19,6,95,3,20,"str2double@221-240@src/tool_paramhlp.c","src/tool_paramhlp.c","str2double","str2double( double * val , const char * str , double max)",221,240
+11,3,67,2,12,"secs2ms@255-266@src/tool_paramhlp.c","src/tool_paramhlp.c","secs2ms","secs2ms( long * valp , const char * str)",255,266
+9,3,58,2,11,"protoset_index@274-284@src/tool_paramhlp.c","src/tool_paramhlp.c","protoset_index","protoset_index( const char * const * protoset , const char * proto)",274,284
+11,3,63,2,12,"protoset_set@287-298@src/tool_paramhlp.c","src/tool_paramhlp.c","protoset_set","protoset_set( const char ** protoset , const char * proto)",287,298
+11,3,68,2,13,"protoset_clear@301-313@src/tool_paramhlp.c","src/tool_paramhlp.c","protoset_clear","protoset_clear( const char ** protoset , const char * proto)",301,313
+92,23,523,4,113,"proto2num@328-440@src/tool_paramhlp.c","src/tool_paramhlp.c","proto2num","proto2num( struct OperationConfig * config , const char * const * val , char ** ostr , const char * str)",328,440
+8,3,30,1,9,"check_protocol@450-458@src/tool_paramhlp.c","src/tool_paramhlp.c","check_protocol","check_protocol( const char * str)",450,458
+20,10,128,2,26,"str2offset@468-493@src/tool_paramhlp.c","src/tool_paramhlp.c","str2offset","str2offset( curl_off_t * val , const char * str)",468,493
+36,9,208,4,52,"checkpasswd@496-547@src/tool_paramhlp.c","src/tool_paramhlp.c","checkpasswd","checkpasswd( const char * kind , const size_t i , const bool last , char ** userpwd)",496,547
+9,2,43,2,10,"add2list@549-558@src/tool_paramhlp.c","src/tool_paramhlp.c","add2list","add2list( struct curl_slist ** list , const char * ptr)",549,558
+12,4,64,2,14,"ftpfilemethod@560-573@src/tool_paramhlp.c","src/tool_paramhlp.c","ftpfilemethod","ftpfilemethod( struct OperationConfig * config , const char * str)",560,573
+10,3,52,2,12,"ftpcccmethod@575-586@src/tool_paramhlp.c","src/tool_paramhlp.c","ftpcccmethod","ftpcccmethod( struct OperationConfig * config , const char * str)",575,586
+12,4,64,2,14,"delegation@588-601@src/tool_paramhlp.c","src/tool_paramhlp.c","delegation","delegation( struct OperationConfig * config , const char * str)",588,601
+4,1,14,1,4,"my_useragent@606-609@src/tool_paramhlp.c","src/tool_paramhlp.c","my_useragent","my_useragent( void)",606,609
+13,4,82,2,15,"inlist@617-631@src/tool_paramhlp.c","src/tool_paramhlp.c","inlist","inlist( const struct curl_slist * head , const char * checkfor)",617,631
+32,14,211,2,42,"get_args@633-674@src/tool_paramhlp.c","src/tool_paramhlp.c","get_args","get_args( struct OperationConfig * config , const size_t i)",633,674
+23,4,135,2,23,"str2tls_max@685-707@src/tool_paramhlp.c","src/tool_paramhlp.c","str2tls_max","str2tls_max( long * val , const char * str)",685,707
+44,7,254,3,53,"getfiletime@36-88@src/tool_filetime.c","src/tool_filetime.c","getfiletime","getfiletime( const char * filename , struct GlobalConfig * global , curl_off_t * stamp)",36,88
+51,10,342,3,64,"setfiletime@91-154@src/tool_filetime.c","src/tool_filetime.c","setfiletime","setfiletime( curl_off_t filetime , const char * filename , struct GlobalConfig * global)",91,154
+16,1,95,1,17,"config_init@32-48@src/tool_cfgable.c","src/tool_cfgable.c","config_init","config_init( struct OperationConfig * config)",32,48
+111,2,744,1,129,"free_config_fields@50-178@src/tool_cfgable.c","src/tool_cfgable.c","free_config_fields","free_config_fields( struct OperationConfig * config)",50,178
+10,2,45,1,14,"config_free@180-193@src/tool_cfgable.c","src/tool_cfgable.c","config_free","config_free( struct OperationConfig * config)",180,193
+14,6,38,1,17,"is_fatal_error@115-131@src/tool_operate.c","src/tool_operate.c","is_fatal_error","is_fatal_error( CURLcode code)",115,131
+9,2,31,1,9,"is_pkcs11_uri@136-144@src/tool_operate.c","src/tool_operate.c","is_pkcs11_uri","is_pkcs11_uri( const char * string)",136,144
+21,4,97,2,24,"vms_realfilesize@157-180@src/tool_operate.c","src/tool_operate.c","vms_realfilesize","vms_realfilesize( const char * name , const struct_stat * stat_buf)",157,180
+12,3,49,2,12,"VmsSpecialSize@188-199@src/tool_operate.c","src/tool_operate.c","VmsSpecialSize","VmsSpecialSize( const char * name , const struct_stat * stat_buf)",188,199
+18,3,79,1,23,"add_per_transfer@210-232@src/tool_operate.c","src/tool_operate.c","add_per_transfer","add_per_transfer( struct per_transfer ** per)",210,232
+21,3,87,1,26,"del_per_transfer@236-261@src/tool_operate.c","src/tool_operate.c","del_per_transfer","del_per_transfer( struct per_transfer * per)",236,261
+53,17,334,2,81,"pre_transfer@263-343@src/tool_operate.c","src/tool_operate.c","pre_transfer","pre_transfer( struct GlobalConfig * global , struct per_transfer * per)",263,343
+10,5,68,2,11,"AmigaSetComment@346-356@src/tool_operate.c","src/tool_operate.c","AmigaSetComment","AmigaSetComment( struct per_transfer * per , CURLcode result)",346,356
+17,4,88,1,19,"single_transfer_cleanup@364-382@src/tool_operate.c","src/tool_operate.c","single_transfer_cleanup","single_transfer_cleanup( struct OperationConfig * config)",364,382
+221,100,1376,5,312,"post_per_transfer@387-698@src/tool_operate.c","src/tool_operate.c","post_per_transfer","post_per_transfer( struct GlobalConfig * global , struct per_transfer * per , CURLcode result , bool * retryp , long * delay)",387,698
+60,15,341,1,78,"ipfs_gateway@700-777@src/tool_operate.c","src/tool_operate.c","ipfs_gateway","ipfs_gateway( void)",700,777
+93,16,367,4,113,"ipfs_url_rewrite@783-895@src/tool_operate.c","src/tool_operate.c","ipfs_url_rewrite","ipfs_url_rewrite( CURLU * uh , const char * protocol , char ** url , struct OperationConfig * config)",783,895
+33,10,187,3,40,"url_proto@900-939@src/tool_operate.c","src/tool_operate.c","url_proto","url_proto( char ** url , struct OperationConfig * config , char ** scheme)",900,939
+1108,358,7046,5,1505,"single_transfer@942-2446@src/tool_operate.c","src/tool_operate.c","single_transfer","single_transfer( struct GlobalConfig * global , struct OperationConfig * config , CURLSH * share , bool capath_from_env , bool * added)",942,2446
+61,16,380,5,70,"add_parallel_transfers@2455-2524@src/tool_operate.c","src/tool_operate.c","add_parallel_transfers","add_parallel_transfers( struct GlobalConfig * global , CURLM * multi , CURLSH * share , bool * morep , bool * addedp)",2455,2524
+110,38,591,2,133,"parallel_transfers@2526-2658@src/tool_operate.c","src/tool_operate.c","parallel_transfers","parallel_transfers( struct GlobalConfig * global , CURLSH * share)",2526,2658
+64,20,330,2,81,"serial_transfers@2660-2740@src/tool_operate.c","src/tool_operate.c","serial_transfers","serial_transfers( struct GlobalConfig * global , CURLSH * share)",2660,2740
+75,20,386,4,106,"transfer_per_config@2743-2848@src/tool_operate.c","src/tool_operate.c","transfer_per_config","transfer_per_config( struct GlobalConfig * global , struct OperationConfig * config , CURLSH * share , bool * added)",2743,2848
+16,4,78,3,17,"create_transfer@2854-2870@src/tool_operate.c","src/tool_operate.c","create_transfer","create_transfer( struct GlobalConfig * global , CURLSH * share , bool * added)",2854,2870
+26,5,140,3,39,"run_all_transfers@2872-2910@src/tool_operate.c","src/tool_operate.c","run_all_transfers","run_all_transfers( struct GlobalConfig * global , CURLSH * share , CURLcode result)",2872,2910
+77,25,443,2,111,"operate@2912-3022@src/tool_operate.c","src/tool_operate.c","operate","operate( struct GlobalConfig * global , int argc , argv_item_t argv [ ])",2912,3022
+46,10,318,4,63,"tool_read_cb@46-108@src/tool_cb_rea.c","src/tool_cb_rea.c","tool_read_cb","tool_read_cb( char * buffer , size_t sz , size_t nmemb , void * userdata)",46,108
+16,3,88,5,19,"tool_readbusy_cb@114-132@src/tool_cb_rea.c","src/tool_cb_rea.c","tool_readbusy_cb","tool_readbusy_cb( void * clientp , curl_off_t dltotal , curl_off_t dlnow , curl_off_t ultotal , curl_off_t ulnow)",114,132
+17,3,181,3,22,"glob_fixed@40-61@src/tool_urlglob.c","src/tool_urlglob.c","glob_fixed","glob_fixed( struct URLGlob * glob , char * fixed , size_t len)",40,61
+12,3,54,2,12,"multiply@67-78@src/tool_urlglob.c","src/tool_urlglob.c","multiply","multiply( curl_off_t * amount , curl_off_t with)",67,78
+72,17,485,5,94,"glob_set@80-173@src/tool_urlglob.c","src/tool_urlglob.c","glob_set","glob_set( struct URLGlob * glob , char ** patternp , size_t * posp , curl_off_t * amount , int globindex)",80,173
+114,40,792,5,150,"glob_range@175-324@src/tool_urlglob.c","src/tool_urlglob.c","glob_range","glob_range( struct URLGlob * glob , char ** patternp , size_t * posp , curl_off_t * amount , int globindex)",175,324
+23,6,130,2,34,"peek_ipv6@328-361@src/tool_urlglob.c","src/tool_urlglob.c","peek_ipv6","peek_ipv6( const char * str , size_t * skip)",328,361
+61,21,347,4,77,"glob_parse@363-439@src/tool_urlglob.c","src/tool_urlglob.c","glob_parse","glob_parse( struct URLGlob * glob , char * pattern , size_t pos , curl_off_t * amount)",363,439
+43,7,245,4,55,"glob_url@441-495@src/tool_urlglob.c","src/tool_urlglob.c","glob_url","glob_url( struct URLGlob ** glob , char * url , curl_off_t * urlnum , FILE * error)",441,495
+20,6,146,1,22,"glob_cleanup@497-518@src/tool_urlglob.c","src/tool_urlglob.c","glob_cleanup","glob_cleanup( struct URLGlob * glob)",497,518
+85,19,547,2,93,"glob_next_url@520-612@src/tool_urlglob.c","src/tool_urlglob.c","glob_next_url","glob_next_url( char ** globbed , struct URLGlob * glob)",520,612
+81,17,471,3,96,"glob_match_url@616-711@src/tool_urlglob.c","src/tool_urlglob.c","glob_match_url","glob_match_url( char ** result , char * filename , struct URLGlob * glob)",616,711
+25,11,105,2,35,"show_dir_errno@48-82@src/tool_dirhie.c","src/tool_dirhie.c","show_dir_errno","show_dir_errno( struct GlobalConfig * global , const char * name)",48,82
+49,14,278,2,69,"create_dir_hierarchy@99-167@src/tool_dirhie.c","src/tool_dirhie.c","create_dir_hierarchy","create_dir_hierarchy( const char * outfile , struct GlobalConfig * global)",99,167
+21,9,129,3,43,"tool_seek_cb@50-92@src/tool_cb_see.c","src/tool_cb_see.c","tool_seek_cb","tool_seek_cb( void * userdata , curl_off_t offset , int whence)",50,92
+9,3,53,2,12,"tool_ftruncate64@123-134@src/tool_cb_see.c","src/tool_cb_see.c","tool_ftruncate64","tool_ftruncate64( int fd , curl_off_t where)",123,134
+23,6,152,3,23,"checkhome@68-90@src/tool_findfile.c","src/tool_findfile.c","checkhome","checkhome( const char * home , const char * fname , bool dotscore)",68,90
+50,19,294,2,56,"findfile@102-157@src/tool_findfile.c","src/tool_findfile.c","findfile","findfile( const char * fname , int dotscore)",102,157
+24,8,247,2,46,"max5data@36-81@src/tool_progress.c","src/tool_progress.c","max5data","max5data( curl_off_t bytes , char * max5)",36,81
+20,3,95,5,23,"xferinfo_cb@83-105@src/tool_progress.c","src/tool_progress.c","xferinfo_cb","xferinfo_cb( void * clientp , curl_off_t dltotal , curl_off_t dlnow , curl_off_t ultotal , curl_off_t ulnow)",83,105
+24,4,190,2,26,"time2str@109-134@src/tool_progress.c","src/tool_progress.c","time2str","time2str( char * r , curl_off_t seconds)",109,134
+130,23,688,3,150,"progress_meter@157-306@src/tool_progress.c","src/tool_progress.c","progress_meter","progress_meter( struct GlobalConfig * global , struct timeval * start , bool final)",157,306
+13,3,63,1,14,"progress_finalize@308-321@src/tool_progress.c","src/tool_progress.c","progress_finalize","progress_finalize( struct per_transfer * per)",308,321
+45,15,258,4,47,"jsonquoted@41-87@src/tool_writeout_json.c","src/tool_writeout_json.c","jsonquoted","jsonquoted( const char * in , size_t len , struct curlx_dynbuf * out , bool lowercase)",41,87
+12,3,87,3,13,"jsonWriteString@89-101@src/tool_writeout_json.c","src/tool_writeout_json.c","jsonWriteString","jsonWriteString( FILE * stream , const char * in , bool lowercase)",89,101
+14,4,116,3,19,"ourWriteOutJSON@103-121@src/tool_writeout_json.c","src/tool_writeout_json.c","ourWriteOutJSON","ourWriteOutJSON( FILE * stream , const struct writeoutvar mappings [ ] , struct per_transfer * per , CURLcode per_result)",103,121
+43,9,266,2,46,"headerJSON@128-173@src/tool_writeout_json.c","src/tool_writeout_json.c","headerJSON","headerJSON( FILE * stream , struct per_transfer * per)",128,173
+42,18,128,1,42,"param2text@43-84@src/tool_helpers.c","src/tool_helpers.c","param2text","param2text( int res)",43,84
+20,3,87,3,23,"SetHTTPrequest@86-108@src/tool_helpers.c","src/tool_helpers.c","SetHTTPrequest","SetHTTPrequest( struct OperationConfig * config , HttpReq req , HttpReq * store)",86,108
+23,4,95,3,25,"customrequest_helper@110-134@src/tool_helpers.c","src/tool_helpers.c","customrequest_helper","customrequest_helper( struct OperationConfig * config , HttpReq req , char * method)",110,134
+90,35,515,3,123,"sanitize_file_name@113-235@src/tool_doswin.c","src/tool_doswin.c","sanitize_file_name","sanitize_file_name( char ** const sanitized , const char * file_name , int flags)",113,235
+22,11,126,2,30,"truncate_dryrun@263-292@src/tool_doswin.c","src/tool_doswin.c","truncate_dryrun","truncate_dryrun( const char * path , const size_t truncate_pos)",263,292
+109,47,692,3,132,"msdosify@313-444@src/tool_doswin.c","src/tool_doswin.c","msdosify","msdosify( char ** const sanitized , const char * file_name , int flags)",313,444
+83,42,606,3,126,"rename_if_reserved_dos_device_name@460-585@src/tool_doswin.c","src/tool_doswin.c","rename_if_reserved_dos_device_name","rename_if_reserved_dos_device_name( char ** const sanitized , const char * file_name , int flags)",460,585
+5,1,20,1,5,"__crt0_glob_function@592-596@src/tool_doswin.c","src/tool_doswin.c","__crt0_glob_function","__crt0_glob_function( char * arg)",592,596
+23,6,131,3,34,"FindWin32CACert@617-650@src/tool_doswin.c","src/tool_doswin.c","FindWin32CACert","FindWin32CACert( struct OperationConfig * config , curl_sslbackend backend , const TCHAR * bundle_file)",617,650
+36,10,210,1,49,"GetLoadedModulePaths@656-704@src/tool_doswin.c","src/tool_doswin.c","GetLoadedModulePaths","GetLoadedModulePaths( void)",656,704
+5,2,32,1,5,"restore_terminal@717-721@src/tool_doswin.c","src/tool_doswin.c","restore_terminal","restore_terminal( void)",717,721
+6,3,24,1,6,"signal_handler@726-731@src/tool_doswin.c","src/tool_doswin.c","signal_handler","signal_handler( DWORD type)",726,731
+22,6,125,1,30,"init_terminal@733-762@src/tool_doswin.c","src/tool_doswin.c","init_terminal","init_terminal( void)",733,762
+11,2,43,1,16,"win32_init@767-782@src/tool_doswin.c","src/tool_doswin.c","win32_init","win32_init( void)",767,782
+17,4,110,1,26,"tvnow@37-62@src/tool_util.c","src/tool_util.c","tvnow","tvnow( void)",37,62
+16,3,84,1,31,"tvnow@66-96@src/tool_util.c","src/tool_util.c","tvnow","tvnow( void)",66,96
+6,1,24,1,11,"tvnow@100-110@src/tool_util.c","src/tool_util.c","tvnow","tvnow( void)",100,110
+7,1,28,1,10,"tvnow@114-123@src/tool_util.c","src/tool_util.c","tvnow","tvnow( void)",114,123
+5,1,43,2,5,"tvdiff@133-137@src/tool_util.c","src/tool_util.c","tvdiff","tvdiff( struct timeval newer , struct timeval older)",133,137
+11,7,67,2,16,"struplocompare@140-155@src/tool_util.c","src/tool_util.c","struplocompare","struplocompare( const char * p1 , const char * p2)",140,155
+4,1,36,2,4,"struplocompare4sort@158-161@src/tool_util.c","src/tool_util.c","struplocompare4sort","struplocompare4sort( const void * p1 , const void * p2)",158,161
+21,5,138,2,28,"execpath@50-77@src/tool_parsecfg.c","src/tool_parsecfg.c","execpath","execpath( const char * filename , char ** pathp)",50,77
+153,60,810,2,206,"parseconfig@82-287@src/tool_parsecfg.c","src/tool_parsecfg.c","parseconfig","parseconfig( const char * filename , struct GlobalConfig * global)",82,287
+31,9,118,2,33,"unslashquote@296-328@src/tool_parsecfg.c","src/tool_parsecfg.c","unslashquote","unslashquote( const char * line , char * param)",296,328
+15,5,89,3,19,"my_get_line@333-351@src/tool_parsecfg.c","src/tool_parsecfg.c","my_get_line","my_get_line( FILE * fp , struct curlx_dynbuf * db , bool * error)",333,351
+118,51,884,4,166,"tool_header_cb@68-233@src/tool_cb_hdr.c","src/tool_cb_hdr.c","tool_header_cb","tool_header_cb( char * ptr , size_t size , size_t nmemb , void * userdata)",68,233
+65,16,335,2,95,"parse_filename@238-332@src/tool_cb_hdr.c","src/tool_cb_hdr.c","parse_filename","parse_filename( const char * ptr , size_t len)",238,332
+58,22,393,4,82,"write_linked_location@345-426@src/tool_cb_hdr.c","src/tool_cb_hdr.c","write_linked_location","write_linked_location( CURL * curl , const char * location , size_t loclen , FILE * stream)",345,426
+4,1,10,1,4,"tool_init_stderr@37-40@src/tool_stderr.c","src/tool_stderr.c","tool_init_stderr","tool_init_stderr( void)",37,40
+22,5,103,2,31,"tool_set_stderr_file@42-72@src/tool_stderr.c","src/tool_stderr.c","tool_set_stderr_file","tool_set_stderr_file( struct GlobalConfig * global , char * filename)",42,72
+69,18,316,3,93,"parse_cert_parameter@372-464@src/tool_getparam.c","src/tool_getparam.c","parse_cert_parameter","parse_cert_parameter( const char * cert_parameter , char ** certname , char ** passphrase)",372,464
+23,6,117,1,26,"replace_url_encoded_space_by_plus@467-492@src/tool_getparam.c","src/tool_getparam.c","replace_url_encoded_space_by_plus","replace_url_encoded_space_by_plus( char * url)",467,492
+11,2,62,3,11,"GetFileAndPassword@495-505@src/tool_getparam.c","src/tool_getparam.c","GetFileAndPassword","GetFileAndPassword( char * nextarg , char ** file , char ** password)",495,505
+44,15,222,4,48,"GetSizeParameter@510-557@src/tool_getparam.c","src/tool_getparam.c","GetSizeParameter","GetSizeParameter( struct GlobalConfig * global , const char * arg , const char * which , curl_off_t * value_out)",510,557
+7,2,30,1,10,"cleanarg@560-569@src/tool_getparam.c","src/tool_getparam.c","cleanarg","cleanarg( argv_item_t str)",560,569
+82,15,395,4,99,"data_urlencode@575-673@src/tool_getparam.c","src/tool_getparam.c","data_urlencode","data_urlencode( struct GlobalConfig * global , char * nextarg , char ** postp , size_t * lenp)",575,673
+9,3,44,3,10,"sethttpver@675-684@src/tool_getparam.c","src/tool_getparam.c","sethttpver","sethttpver( struct GlobalConfig * global , struct OperationConfig * config , long httpversion)",675,684
+49,10,220,2,54,"set_trace_config@686-739@src/tool_getparam.c","src/tool_getparam.c","set_trace_config","set_trace_config( struct GlobalConfig * global , const char * config)",686,739
+1672,510,7737,6,1943,"getparameter@741-2683@src/tool_getparam.c","src/tool_getparam.c","getparameter","getparameter( const char * flag , char * nextarg , argv_item_t cleararg , bool * usedarg , struct GlobalConfig * global , struct OperationConfig * config)",741,2683
+78,27,452,2,103,"parse_args@2685-2787@src/tool_getparam.c","src/tool_getparam.c","parse_args","parse_args( struct GlobalConfig * global , int argc , argv_item_t argv [ ])",2685,2787
+82,24,479,2,95,"tool_create_output_file@54-148@src/tool_cb_wrt.c","src/tool_cb_wrt.c","tool_create_output_file","tool_create_output_file( struct OutStruct * outs , struct OperationConfig * config)",54,148
+185,74,1223,4,232,"tool_write_cb@154-385@src/tool_cb_wrt.c","src/tool_cb_wrt.c","tool_write_cb","tool_write_cb( char * buffer , size_t sz , size_t nmemb , void * userdata)",154,385
+20,4,103,2,25,"slist_wc_append@38-62@src/slist_wc.c","src/slist_wc.c","slist_wc_append","slist_wc_append( struct slist_wc * list , const char * data)",38,62
+7,2,28,1,8,"slist_wc_free_all@65-72@src/slist_wc.c","src/slist_wc.c","slist_wc_free_all","slist_wc_free_all( struct slist_wc * list)",65,72
+15,6,83,1,18,"tool_basename@32-49@src/tool_bname.c","src/tool_bname.c","tool_basename","tool_basename( char * path)",32,49
+26,6,131,1,31,"stripcredentials@51-81@src/tool_xattr.c","src/tool_xattr.c","stripcredentials","stripcredentials( const char * url)",51,81
+20,8,124,3,28,"xattr@83-110@src/tool_xattr.c","src/tool_xattr.c","xattr","xattr( int fd , const char * attr , const char * value)",83,110
+20,7,133,3,22,"fwrite_xattr@114-135@src/tool_xattr.c","src/tool_xattr.c","fwrite_xattr","fwrite_xattr( CURL * curl , const char * url , int fd)",114,135
+6,3,33,1,12,"set_binmode@40-51@src/tool_binmode.c","src/tool_binmode.c","set_binmode","set_binmode( FILE * stream)",40,51
+17,3,82,1,18,"clean_getout@39-56@src/tool_operhlp.c","src/tool_operhlp.c","clean_getout","clean_getout( struct OperationConfig * config)",39,56
+8,4,44,2,9,"output_expected@58-66@src/tool_operhlp.c","src/tool_operhlp.c","output_expected","output_expected( const char * url , const char * uploadfile)",58,66
+5,3,32,1,5,"stdin_upload@68-72@src/tool_operhlp.c","src/tool_operhlp.c","stdin_upload","stdin_upload( const char * uploadfile)",68,72
+12,5,49,1,12,"urlerr_cvt@75-86@src/tool_operhlp.c","src/tool_operhlp.c","urlerr_cvt","urlerr_cvt( CURLUcode ucode)",75,86
+73,16,397,3,86,"add_file_name_to_url@92-177@src/tool_operhlp.c","src/tool_operhlp.c","add_file_name_to_url","add_file_name_to_url( CURL * curl , char ** inurlp , const char * filename)",92,177
+54,14,282,2,72,"get_url_file_name@183-254@src/tool_operhlp.c","src/tool_operhlp.c","get_url_file_name","get_url_file_name( char ** filename , const char * url)",183,254
+10,3,54,2,10,"Memdup@46-55@src/var.c","src/var.c","Memdup","Memdup( const char * data , size_t len)",46,55
+11,2,64,1,11,"varcleanup@58-68@src/var.c","src/var.c","varcleanup","varcleanup( struct GlobalConfig * global)",58,68
+13,4,71,3,13,"varcontent@70-82@src/var.c","src/var.c","varcontent","varcontent( struct GlobalConfig * global , const char * name , size_t nlen)",70,82
+97,28,466,6,111,"varfunc@97-207@src/var.c","src/var.c","varfunc","varfunc( struct GlobalConfig * global , char * c , size_t clen , char * f , size_t flen , struct curlx_dynbuf * out)",97,207
+108,29,635,4,134,"varexpand@209-342@src/var.c","src/var.c","varexpand","varexpand( struct GlobalConfig * global , const char * line , struct curlx_dynbuf * out , bool * replaced)",209,342
+30,6,185,6,34,"addvariable@349-382@src/var.c","src/var.c","addvariable","addvariable( struct GlobalConfig * global , const char * name , size_t nlen , const char * content , size_t clen , bool contalloc)",349,382
+75,20,380,2,81,"setvariable@384-464@src/var.c","src/var.c","setvariable","setvariable( struct GlobalConfig * global , const char * input)",384,464
+13,3,68,1,17,"strdup@27-43@src/tool_strdup.c","src/tool_strdup.c","strdup","strdup( const char * str)",27,43
+11,4,79,1,16,"tool_go_sleep@46-61@src/tool_sleep.c","src/tool_sleep.c","tool_go_sleep","tool_go_sleep( long ms)",46,61
+13,1,51,1,13,"easysrc_free@82-94@src/tool_easysrc.c","src/tool_easysrc.c","easysrc_free","easysrc_free( void)",82,94
+12,2,56,2,12,"easysrc_add@97-108@src/tool_easysrc.c","src/tool_easysrc.c","easysrc_add","easysrc_add( struct slist_wc ** plist , const char * line)",97,108
+17,2,78,2,17,"easysrc_addf@110-126@src/tool_easysrc.c","src/tool_easysrc.c","easysrc_addf","easysrc_addf( struct slist_wc ** plist , const char * fmt , ...)",110,126
+6,1,20,1,6,"easysrc_init@130-135@src/tool_easysrc.c","src/tool_easysrc.c","easysrc_init","easysrc_init( void)",130,135
+23,5,171,1,29,"easysrc_perform@137-165@src/tool_easysrc.c","src/tool_easysrc.c","easysrc_perform","easysrc_perform( void)",137,165
+6,1,31,1,7,"easysrc_cleanup@167-173@src/tool_easysrc.c","src/tool_easysrc.c","easysrc_cleanup","easysrc_cleanup( void)",167,173
+50,15,329,1,62,"dumpeasysrc@175-236@src/tool_easysrc.c","src/tool_easysrc.c","dumpeasysrc","dumpeasysrc( struct GlobalConfig * config)",175,236
+40,15,248,1,52,"get_libcurl_info@137-188@src/tool_libinfo.c","src/tool_libinfo.c","get_libcurl_info","get_libcurl_info( void)",137,188
+10,4,52,1,11,"proto_token@198-208@src/tool_libinfo.c","src/tool_libinfo.c","proto_token","proto_token( const char * proto)",198,208
+10,5,63,1,10,"main_checkfds@92-101@src/tool_main.c","src/tool_main.c","main_checkfds","main_checkfds( void)",92,101
+21,7,129,1,27,"memory_tracking_init@107-133@src/tool_main.c","src/tool_main.c","memory_tracking_init","memory_tracking_init( void)",107,133
+32,5,158,1,45,"main_init@143-187@src/tool_main.c","src/tool_main.c","main_init","main_init( struct GlobalConfig * config)",143,187
+8,3,46,1,10,"free_globalconfig@189-198@src/tool_main.c","src/tool_main.c","free_globalconfig","free_globalconfig( struct GlobalConfig * config)",189,198
+8,1,37,1,12,"main_free@204-215@src/tool_main.c","src/tool_main.c","main_free","main_free( struct GlobalConfig * config)",204,215
+33,12,216,1,61,"main@228-288@src/tool_main.c","src/tool_main.c","main","main( int argc , char * argv [ ])",228,288
+17,4,67,1,25,"is_vms_shell@50-74@src/tool_vms.c","src/tool_vms.c","is_vms_shell","is_vms_shell( void)",50,74
+14,4,61,2,19,"vms_special_exit@93-111@src/tool_vms.c","src/tool_vms.c","vms_special_exit","vms_special_exit( int code , int vms_show)",93,111
+33,6,196,1,46,"decc_init@149-194@src/tool_vms.c","src/tool_vms.c","decc_init","decc_init( void)",149,194
+21,3,107,1,24,"hms_for_sec@45-68@src/tool_cb_dbg.c","src/tool_cb_dbg.c","hms_for_sec","hms_for_sec( time_t tv_sec)",45,68
+11,5,89,4,15,"log_line_start@70-84@src/tool_cb_dbg.c","src/tool_cb_dbg.c","log_line_start","log_line_start( FILE * log , const char * timebuf , const char * idsbuf , curl_infotype type)",70,84
+131,43,761,5,155,"tool_debug_cb@92-246@src/tool_cb_dbg.c","src/tool_cb_dbg.c","tool_debug_cb","tool_debug_cb( CURL * handle , curl_infotype type , char * data , size_t size , void * userdata)",92,246
+41,18,349,8,52,"dump@248-299@src/tool_cb_dbg.c","src/tool_cb_dbg.c","dump","dump( const char * timebuf , const char * idsbuf , const char * text , FILE * stream , const unsigned char * ptr , size_t size , trace tracetype , curl_infotype infotype)",248,299
+41,14,298,2,57,"c_escape@207-263@src/tool_setopt.c","src/tool_setopt.c","c_escape","c_escape( const char * str , curl_off_t len)",207,263
+27,10,162,6,36,"tool_setopt_enum@266-301@src/tool_setopt.c","src/tool_setopt.c","tool_setopt_enum","tool_setopt_enum( CURL * curl , struct GlobalConfig * config , const char * name , CURLoption tag , const struct NameValue * nvlist , long lval)",266,301
+33,10,213,6,42,"tool_setopt_bitmask@304-345@src/tool_setopt.c","src/tool_setopt.c","tool_setopt_bitmask","tool_setopt_bitmask( CURL * curl , struct GlobalConfig * config , const char * name , CURLoption tag , const struct NameValueUnsigned * nvlist , long lval)",304,345
+21,3,122,2,25,"libcurl_generate_slist@348-372@src/tool_setopt.c","src/tool_setopt.c","libcurl_generate_slist","libcurl_generate_slist( struct curl_slist * slist , int * slistno)",348,372
+90,25,493,4,108,"libcurl_generate_mime_part@380-487@src/tool_setopt.c","src/tool_setopt.c","libcurl_generate_mime_part","libcurl_generate_mime_part( CURL * curl , struct GlobalConfig * config , struct tool_mime * part , int mimeno)",380,487
+20,2,110,4,24,"libcurl_generate_mime@490-513@src/tool_setopt.c","src/tool_setopt.c","libcurl_generate_mime","libcurl_generate_mime( CURL * curl , struct GlobalConfig * config , struct tool_mime * toolmime , int * mimeno)",490,513
+15,4,90,5,18,"tool_setopt_mimepost@516-533@src/tool_setopt.c","src/tool_setopt.c","tool_setopt_mimepost","tool_setopt_mimepost( CURL * curl , struct GlobalConfig * config , const char * name , CURLoption tag , curl_mime * mimepost)",516,533
+15,5,87,5,19,"tool_setopt_slist@536-554@src/tool_setopt.c","src/tool_setopt.c","tool_setopt_slist","tool_setopt_slist( CURL * curl , struct GlobalConfig * config , const char * name , CURLoption tag , struct curl_slist * list)",536,554
+91,21,502,6,112,"tool_setopt@558-669@src/tool_setopt.c","src/tool_setopt.c","tool_setopt","tool_setopt( CURL * curl , bool str , struct GlobalConfig * global , struct OperationConfig * config , const char * name , CURLoption tag , ...)",558,669
+14,3,74,2,15,"tool_mime_new@42-56@src/tool_formparse.c","src/tool_formparse.c","tool_mime_new","tool_mime_new( struct tool_mime * parent , toolmimekind kind)",42,56
+4,1,17,1,4,"tool_mime_new_parts@58-61@src/tool_formparse.c","src/tool_formparse.c","tool_mime_new_parts","tool_mime_new_parts( struct tool_mime * parent)",58,61
+15,3,66,2,16,"tool_mime_new_data@63-78@src/tool_formparse.c","src/tool_formparse.c","tool_mime_new_data","tool_mime_new_data( struct tool_mime * parent , char * mime_data)",63,78
+71,19,348,4,80,"tool_mime_new_filedata@80-159@src/tool_formparse.c","src/tool_formparse.c","tool_mime_new_filedata","tool_mime_new_filedata( struct tool_mime * parent , const char * filename , bool isremotefile , CURLcode * errcode)",80,159
+16,4,88,1,16,"tool_mime_free@161-176@src/tool_formparse.c","src/tool_formparse.c","tool_mime_free","tool_mime_free( struct tool_mime * mime)",161,176
+31,8,187,4,35,"tool_mime_stdin_read@180-214@src/tool_formparse.c","src/tool_formparse.c","tool_mime_stdin_read","tool_mime_stdin_read( char * buffer , size_t size , size_t nitems , void * arg)",180,214
+20,6,104,3,21,"tool_mime_stdin_seek@216-236@src/tool_formparse.c","src/tool_formparse.c","tool_mime_stdin_seek","tool_mime_stdin_seek( void * instream , curl_off_t offset , int whence)",216,236
+60,23,337,3,67,"tool2curlparts@240-306@src/tool_formparse.c","src/tool_formparse.c","tool2curlparts","tool2curlparts( CURL * curl , struct tool_mime * m , curl_mime * mime)",240,306
+14,3,75,3,15,"tool2curlmime@308-322@src/tool_formparse.c","src/tool_formparse.c","tool2curlmime","tool2curlmime( CURL * curl , struct tool_mime * m , curl_mime ** mime)",308,322
+51,21,280,4,58,"get_param_word@329-386@src/tool_formparse.c","src/tool_formparse.c","get_param_word","get_param_word( struct OperationConfig * config , char ** str , char ** end_pos , char endchar)",329,386
+8,2,44,2,10,"slist_append@389-398@src/tool_formparse.c","src/tool_formparse.c","slist_append","slist_append( struct curl_slist ** plist , const char * data)",389,398
+55,18,281,4,60,"read_field_headers@401-460@src/tool_formparse.c","src/tool_formparse.c","read_field_headers","read_field_headers( struct OperationConfig * config , const char * filename , FILE * fp , struct curl_slist ** pheaders)",401,460
+171,62,1057,8,197,"get_param_part@462-658@src/tool_formparse.c","src/tool_formparse.c","get_param_part","get_param_part( struct OperationConfig * config , char endchar , char ** str , char ** pdata , char ** ptype , char ** pfilename , char ** pencoder , struct curl_slist ** pheaders)",462,658
+155,34,849,5,191,"formparse@717-907@src/tool_formparse.c","src/tool_formparse.c","formparse","formparse( struct OperationConfig * config , const char * input , struct tool_mime ** mimeroot , struct tool_mime ** mimecurrent , bool literal_value)",717,907
+24,4,163,3,32,"getpass_r@62-93@src/tool_getpass.c","src/tool_getpass.c","getpass_r","getpass_r( const char * prompt , char * buffer , size_t buflen)",62,93
+19,7,129,3,25,"getpass_r@99-123@src/tool_getpass.c","src/tool_getpass.c","getpass_r","getpass_r( const char * prompt , char * buffer , size_t buflen)",99,123
+22,7,120,2,37,"ttyecho@137-173@src/tool_getpass.c","src/tool_getpass.c","ttyecho","ttyecho( bool enable , int fd)",137,173
+24,5,129,3,30,"getpass_r@175-204@src/tool_getpass.c","src/tool_getpass.c","getpass_r","getpass_r( const char * prompt , char * password , size_t buflen)",175,204
+29,5,272,2,33,"fly@79-111@src/tool_cb_prg.c","src/tool_cb_prg.c","fly","fly( struct ProgressData * bar , bool moved)",79,111
+73,20,457,5,93,"tool_progress_cb@126-218@src/tool_cb_prg.c","src/tool_cb_prg.c","tool_progress_cb","tool_progress_cb( void * clientp , curl_off_t dltotal , curl_off_t dlnow , curl_off_t ultotal , curl_off_t ulnow)",126,218
+44,18,288,2,61,"progressbarinit@220-280@src/tool_cb_prg.c","src/tool_cb_prg.c","progressbarinit","progressbarinit( struct ProgressData * bar , struct OperationConfig * config)",220,280
